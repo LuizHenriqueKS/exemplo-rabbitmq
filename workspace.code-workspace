@@ -1,0 +1,50 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "exemplo-rabbitmq-produtor"
+        },
+        {
+            "path": "exemplo-rabbitmq-lib"
+        },
+        {
+            "path": "exemplo-rabbitmq-consumidor"
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "java.configuration.updateBuildConfiguration": "interactive"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "java",
+                "name": "Launch Current File",
+                "request": "launch",
+                "mainClass": "${file}",
+                "console": "internalConsole"
+            },
+            {
+                "type": "java",
+                "name": "Launch ExemploRabbitmqProdutorApplication",
+                "request": "launch",
+                "mainClass": "br.com.exemplorabbitmq.produtor.ExemploRabbitmqProdutorApplication",
+                "projectName": "exemplo-rabbitmq-produtor",
+                "console": "internalConsole"
+            },
+            {
+                "type": "java",
+                "name": "Launch ExemploRabbitmqConsumidorApplication",
+                "request": "launch",
+                "mainClass": "br.com.exemplorabbitmq.consumidor.ExemploRabbitmqConsumidorApplication",
+                "projectName": "exemplo-rabbitmq-consumidor",
+                "console": "internalConsole"
+            }
+        ]
+    }
+}
